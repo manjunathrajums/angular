@@ -1,9 +1,72 @@
 .header{
     height:8vh;
-    background-color: rgb(3, 3, 53);
+    background-color: #4682B4;
     color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding:0px 10px;
 }
+
+
+.content{
+    width:100%;
+    
+
+}
+
+.add-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 20px 0px;
+    
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-size: 16px;
+    display:flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 40vh;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+/* Container to center align form group content */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40vh;
+}
+
+button{
+    background-color: #4682B4;
+    padding:8px;
+    border-radius:10%;
+    font-size: 14px;
+    color: white;
+}
+
